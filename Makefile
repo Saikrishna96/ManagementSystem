@@ -6,3 +6,4 @@ install:
 	mvn clean install
 exec:
 	java -jar target/*jar &
+run: install exec

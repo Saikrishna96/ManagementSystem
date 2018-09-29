@@ -32,6 +32,6 @@ public class HomeController {
 
     @RequestMapping("/sound")
     public String getAnimalSound(@RequestParam("animal") String animal){
-        animalIdentifier.getAnimalSound(animal);
+        return animalIdentifier.getAnimalSound(animal);
     }
 }

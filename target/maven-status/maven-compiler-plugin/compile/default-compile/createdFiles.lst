@@ -1,7 +1,0 @@
-com/example/springWebDemo/SpringWebDemoApplication.class
-com/example/springWebDemo/services/GreetingService.class
-com/example/springWebDemo/controllers/HomeController.class
-com/example/springWebDemo/services/FrenchGreetingService.class
-com/example/springWebDemo/config/GreetingServiceConfig.class
-com/example/springWebDemo/model/MeaningOfLife.class
-com/example/springWebDemo/services/EnglishGreetingService.class
