@@ -1,0 +1,7 @@
+/home/krishna/Documents/DemoProjects/ManagementSystem/src/main/java/com/example/springWebDemo/controllers/HomeController.java
+/home/krishna/Documents/DemoProjects/ManagementSystem/src/main/java/com/example/springWebDemo/services/GreetingService.java
+/home/krishna/Documents/DemoProjects/ManagementSystem/src/main/java/com/example/springWebDemo/SpringWebDemoApplication.java
+/home/krishna/Documents/DemoProjects/ManagementSystem/src/main/java/com/example/springWebDemo/config/GreetingServiceConfig.java
+/home/krishna/Documents/DemoProjects/ManagementSystem/src/main/java/com/example/springWebDemo/services/EnglishGreetingService.java
+/home/krishna/Documents/DemoProjects/ManagementSystem/src/main/java/com/example/springWebDemo/services/FrenchGreetingService.java
+/home/krishna/Documents/DemoProjects/ManagementSystem/src/main/java/com/example/springWebDemo/model/MeaningOfLife.java
