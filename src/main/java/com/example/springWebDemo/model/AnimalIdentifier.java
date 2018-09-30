@@ -4,11 +4,20 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
+import java.util.Arrays;
+
 @Component
 public class AnimalIdentifier {
 
     private Dog dog;
     private Cat cat;
+
+    private Animal[] animals;
+
+    @Autowired
+    public void setAnimals(Animal[] animals){
+        this.animals = animals;
+    }
 
     @Autowired
     @Qualifier("dog")
@@ -31,5 +40,9 @@ public class AnimalIdentifier {
             default:
                 return "UNKNOWN";
         }
+    }
+
+    public String[] getAllAnimalSounds(){
+        return Arrays.stream(animals).map(Animal::makeSound).toArray(String[]::new);
     }
 }
